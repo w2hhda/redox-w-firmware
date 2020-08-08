@@ -24,15 +24,14 @@
 #define L_R05 13
 
 // right hand pins
-
 #define R_C01 7
-#define R_C02 30
-#define R_C03 0
-#define R_C04 2
+#define R_C02 6
+#define R_C03 5
+#define R_C04 4
 #define R_C05 3
-#define R_C06 4
-#define R_C07 5
-#define R_C08 6
+#define R_C06 2
+#define R_C07 0
+#define R_C08 30
 
 #define R_R01 21
 #define R_R02 22
