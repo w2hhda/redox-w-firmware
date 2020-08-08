@@ -16,6 +16,7 @@
 #define L_C06 4
 #define L_C07 3
 #define L_C08 2
+
 #define L_R01 19
 #define L_R02 18
 #define L_R03 17
@@ -32,6 +33,7 @@
 #define R_C06 0
 #define R_C07 30
 #define R_C08 7
+
 #define R_R01 21
 #define R_R02 22
 #define R_R03 23
@@ -50,6 +52,7 @@
 #define C06 L_C06
 #define C07 L_C07
 #define C08 L_C08
+
 #define R01 L_R01
 #define R02 L_R02
 #define R03 L_R03
@@ -70,6 +73,7 @@
 #define C06 R_C06
 #define C07 R_C07
 #define C08 R_C08
+
 #define R01 R_R01
 #define R02 R_R02
 #define R03 R_R03

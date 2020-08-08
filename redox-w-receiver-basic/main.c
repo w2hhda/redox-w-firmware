@@ -163,50 +163,50 @@ int main(void)
         {
             packet_received_right = false;
 
-            data_buffer[1] =  ((data_payload_right[0] & 1<<8) ? 1:0) << 0 |
-                              ((data_payload_right[0] & 1<<7) ? 1:0) << 1 |
-                              ((data_payload_right[0] & 1<<6) ? 1:0) << 2 |
-                              ((data_payload_right[0] & 1<<5) ? 1:0) << 3 |
-                              ((data_payload_right[0] & 1<<4) ? 1:0) << 4 |
-                              ((data_payload_right[0] & 1<<3) ? 1:0) << 5 |
-                              ((data_payload_right[0] & 1<<2) ? 1:0) << 6 |
-                              ((data_payload_right[0] & 1<<1) ? 1:0) << 7;
+            data_buffer[1] =  ((data_payload_right[0] & 1<<7) ? 1:0) << 0 |
+                              ((data_payload_right[0] & 1<<6) ? 1:0) << 1 |
+                              ((data_payload_right[0] & 1<<5) ? 1:0) << 2 |
+                              ((data_payload_right[0] & 1<<4) ? 1:0) << 3 |
+                              ((data_payload_right[0] & 1<<3) ? 1:0) << 4 |
+                              ((data_payload_right[0] & 1<<2) ? 1:0) << 5 |
+                              ((data_payload_right[0] & 1<<1) ? 1:0) << 6 |
+                              ((data_payload_right[0] & 1<<0) ? 1:0) << 7;
 
-            data_buffer[3] =  ((data_payload_right[1] & 1<<8) ? 1:0) << 0 |
-                              ((data_payload_right[1] & 1<<7) ? 1:0) << 1 |
-                              ((data_payload_right[1] & 1<<6) ? 1:0) << 2 |
-                              ((data_payload_right[1] & 1<<5) ? 1:0) << 3 |
-                              ((data_payload_right[1] & 1<<4) ? 1:0) << 4 |
-                              ((data_payload_right[1] & 1<<3) ? 1:0) << 5 |
-                              ((data_payload_right[1] & 1<<2) ? 1:0) << 6 |
-                              ((data_payload_right[1] & 1<<1) ? 1:0) << 7;
+            data_buffer[3] =  ((data_payload_right[1] & 1<<7) ? 1:0) << 0 |
+                              ((data_payload_right[1] & 1<<6) ? 1:0) << 1 |
+                              ((data_payload_right[1] & 1<<5) ? 1:0) << 2 |
+                              ((data_payload_right[1] & 1<<4) ? 1:0) << 3 |
+                              ((data_payload_right[1] & 1<<3) ? 1:0) << 4 |
+                              ((data_payload_right[1] & 1<<2) ? 1:0) << 5 |
+                              ((data_payload_right[1] & 1<<1) ? 1:0) << 6 |
+                              ((data_payload_right[1] & 1<<0) ? 1:0) << 7;
 
-            data_buffer[5] =  ((data_payload_right[2] & 1<<8) ? 1:0) << 0 |
-                              ((data_payload_right[2] & 1<<7) ? 1:0) << 1 |
-                              ((data_payload_right[2] & 1<<6) ? 1:0) << 2 |
-                              ((data_payload_right[2] & 1<<5) ? 1:0) << 3 |
-                              ((data_payload_right[2] & 1<<4) ? 1:0) << 4 |
-                              ((data_payload_right[2] & 1<<3) ? 1:0) << 5 |
-                              ((data_payload_right[2] & 1<<2) ? 1:0) << 6 |
-                              ((data_payload_right[2] & 1<<1) ? 1:0) << 7;
+            data_buffer[5] =  ((data_payload_right[2] & 1<<7) ? 1:0) << 0 |
+                              ((data_payload_right[2] & 1<<6) ? 1:0) << 1 |
+                              ((data_payload_right[2] & 1<<5) ? 1:0) << 2 |
+                              ((data_payload_right[2] & 1<<4) ? 1:0) << 3 |
+                              ((data_payload_right[2] & 1<<3) ? 1:0) << 4 |
+                              ((data_payload_right[2] & 1<<2) ? 1:0) << 5 |
+                              ((data_payload_right[2] & 1<<1) ? 1:0) << 6 |
+                              ((data_payload_right[2] & 1<<0) ? 1:0) << 7;
 
-            data_buffer[7] =  ((data_payload_right[3] & 1<<8) ? 1:0) << 0 |
-                              ((data_payload_right[3] & 1<<7) ? 1:0) << 1 |
-                              ((data_payload_right[3] & 1<<6) ? 1:0) << 2 |
-                              ((data_payload_right[3] & 1<<5) ? 1:0) << 3 |
-                              ((data_payload_right[3] & 1<<4) ? 1:0) << 4 |
-                              ((data_payload_right[3] & 1<<3) ? 1:0) << 5 |
-                              ((data_payload_right[3] & 1<<2) ? 1:0) << 6 |
-                              ((data_payload_right[3] & 1<<1) ? 1:0) << 7;
+            data_buffer[7] =  ((data_payload_right[3] & 1<<7) ? 1:0) << 0 |
+                              ((data_payload_right[3] & 1<<6) ? 1:0) << 1 |
+                              ((data_payload_right[3] & 1<<5) ? 1:0) << 2 |
+                              ((data_payload_right[3] & 1<<4) ? 1:0) << 3 |
+                              ((data_payload_right[3] & 1<<3) ? 1:0) << 4 |
+                              ((data_payload_right[3] & 1<<2) ? 1:0) << 5 |
+                              ((data_payload_right[3] & 1<<1) ? 1:0) << 6 |
+                              ((data_payload_right[3] & 1<<0) ? 1:0) << 7;
 
-            data_buffer[9] =  ((data_payload_right[4] & 1<<8) ? 1:0) << 0 |
-                              ((data_payload_right[4] & 1<<7) ? 1:0) << 1 |
-                              ((data_payload_right[4] & 1<<6) ? 1:0) << 2 |
-                              ((data_payload_right[4] & 1<<5) ? 1:0) << 3 |
-                              ((data_payload_right[4] & 1<<4) ? 1:0) << 4 |
-                              ((data_payload_right[4] & 1<<3) ? 1:0) << 5 |
-                              ((data_payload_right[4] & 1<<2) ? 1:0) << 6 |
-                              ((data_payload_right[4] & 1<<1) ? 1:0) << 7;
+            data_buffer[9] =  ((data_payload_right[4] & 1<<7) ? 1:0) << 0 |
+                              ((data_payload_right[4] & 1<<6) ? 1:0) << 1 |
+                              ((data_payload_right[4] & 1<<5) ? 1:0) << 2 |
+                              ((data_payload_right[4] & 1<<4) ? 1:0) << 3 |
+                              ((data_payload_right[4] & 1<<3) ? 1:0) << 4 |
+                              ((data_payload_right[4] & 1<<2) ? 1:0) << 5 |
+                              ((data_payload_right[4] & 1<<1) ? 1:0) << 6 |
+                              ((data_payload_right[4] & 1<<0) ? 1:0) << 7;
 
         }
 
@@ -214,7 +214,7 @@ int main(void)
         if (app_uart_get(&c) == NRF_SUCCESS && c == 's')
         {
             // sending data to QMK, and an end byte
-            nrf_drv_uart_tx(data_buffer,10);
+            nrf_drv_uart_tx(data_buffer, 10);
             app_uart_put(0xE0);
 
             // debugging help, for printing keystates to a serial console
